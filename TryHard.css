@@ -1,7 +1,7 @@
-img { height: 200px; width: 200px; display: block; margin-left: auto;margin-right: auto;}
+img { height: 300px; width: 400px; display: block; margin-left: auto;margin-right: auto;}
 
-.trials { color: red; text-align: center; font-size: xx-large; outline: black }
-body{background-color: blue}
+.trials { color: red; text-align: center; font-size: xxx-large; -webkit-text-stroke: 2px black}
+
 
 
 img {
