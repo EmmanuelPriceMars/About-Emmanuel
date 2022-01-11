@@ -1,3 +1,19 @@
-img { height: 400px; width: 400px;}
+img { height: 200px; width: 200px; display: block; margin-left: auto;margin-right: auto;}
 
-.trials { color: red; text-align: center}
+.trials { color: red; text-align: center; font-size: xx-large; outline: black }
+body{background-color: blue}
+
+
+img {
+    animation-name: img;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+
+}
+
+@keyframes img {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 15px); }
+    100%   { transform: translate(0, -0px); }
+}
